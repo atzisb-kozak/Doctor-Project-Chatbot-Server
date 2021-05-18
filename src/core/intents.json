@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Bonjour", "Comment ça va ?", "Salut", "Coucou", "Aide", "Bonsoir", "Hey"],
+         "responses": ["Coucou ! Je suis un assisstant virtuel pouvez-vous me dire où avez-vous mal ?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Au revoir", "Merci", "A bientôt"],
+         "responses": ["Au revoir!"],
+         "context_set": ""
+        },
+        {"tag": "gastro",
+         "patterns": ["j'ai mal à l'estomac", "j'ai mal au ventre", "ca me lance au niveau de l'intestin", "j'ai des brûlures d'estomac", "je vomis souvent", "j'ai des reflux gastriques", "je digère pas", "j'ai des remontances"],
+         "responses": ["Vous devriez consulter un gastro-entérologue"],
+         "context_set": ""
+        },
+        {"tag": "skin",
+         "patterns": ["j'ai de l'exzéma", "j'ai de l'acné", "ça me gratte la peau", "j'ai des rougeurs", "ma peau s'en va", "ma peau est irrité", "j'ai des démangeaisons", "j'ai plein de bouton partout sur le corps"],
+         "responses": ["Vous devriez consulter un dermatologue"],
+         "context_set": ""
+        },
+        {"tag": "heart",
+         "patterns": ["j'ai mal à la poitrine", "j'ai mal au coeur", "ça serre au niveau de la poitrine", "je suis rapidement essouflé"],
+         "responses": ["Vous devriez consulter un cardiologue "],
+         "context_set": ""
+        },
+        {"tag": "lungs",
+         "patterns": ["j'ai du mal à respirer", "j'ai mal aux poumons", "ça me lance au niveau des poumons", "je crois que j'ai de l'eau dans les poumons"],
+         "responses": ["Vous devriez consulter un pneumologue"],
+         "context_set": ""
+        },
+        {"tag": "eye",
+         "patterns": ["j'ai mal à l'oeil", "j'ai mal aux yeux", "mes yeux sont rouges", "je vois flou", "j'ai du mal à ouvrir l'oeil", "je vois plus très bien de loin", "je ne vois plus de près"],
+         "responses": ["Vous devriez consulter un ophtalmologue"],
+         "context_set": ""
+        }
+   ]
+}
