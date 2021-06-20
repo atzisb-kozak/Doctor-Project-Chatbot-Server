@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Bonjour", "Comment ça va ?", "Salut", "Salutation", "Coucou", "Aide", "Bonsoir", "Hey", "Hello"],
+         "responses": ["Coucou ! Je suis un assistant virtuel pouvez-vous me dire où avez-vous mal ?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Au revoir", "Merci", "Merci beaucoup", "A bientôt", "A une prochaine fois", "Bye", "Ciao", "Adieu"],
+         "responses": ["Au revoir!"],
+         "context_set": ""
+        },
+        {"tag": "gastro",
+         "patterns": ["estomac", "ventre", "intestin", "vomissement", "digestion", "diarrhée", "ballonement", "j'ai mal à l'estomac", "j'ai mal au ventre", "ca me lance au niveau de l'intestin", "j'ai des brûlures d'estomac", "je vomis souvent", "j'ai des reflux gastriques", "je digère pas", "j'ai des remontances", "je suis constipé", "j'ai des ballonements", "j'ai la diarrhées"],
+         "responses": ["Vous devriez consulter un gastro-entérologue"],
+         "context_set": ""
+        },
+        {"tag": "skin",
+         "patterns": ["peau", "acné", "gratte", "brulure", "démangeaisons", "irritation", "verrue", "verrues", "plaque rouge", "plaques rouge", "bouton", "j'ai de l'exzéma", "j'ai de l'acné", "ça me gratte la peau", "ma peau me gratte", "j'ai des rougeurs", "ma peau s'en va", "ma peau est irrité", "j'ai des démangeaisons", "j'ai plein de bouton partout sur le corps", "j'ai une verrue", "j'ai des verrues", "j'ai des brulures"],
+         "responses": ["Vous devriez consulter un dermatologue"],
+         "context_set": ""
+        },
+        {"tag": "heart",
+         "patterns": ["coeur", "poitrine", "étourdissements", "j'ai mal à la poitrine", "j'ai mal au coeur", "ça serre au niveau de la poitrine", "je suis rapidement essouflé", "faire des efforts m'etourdit", "je m'evanouie facilement", "j'ai les jambes qui gonflent", "j'ai les pieds qui gonflent", "je m'evanouie", "je suis essoufflé", "j'ai des douoleurs au coeur", "j'ai mal a la poitrine"],
+         "responses": ["Vous devriez consulter un cardiologue "],
+         "context_set": ""
+        },
+        {"tag": "lungs",
+         "patterns": ["respiration", "poumons", "toux", "asthme", "essouffler", "essoufflement", "je fais de l'asthme", "ma toux ne s'arrete pas", "j'ai du mal à respirer", "j'ai mal aux poumons", "ça me lance au niveau des poumons", "je crois que j'ai de l'eau dans les poumons", "m'a toux ne s'arrete pas", "mes poumons me font mal", "je respire plus correctement", "j'ai des difficulté à respirer"],
+         "responses": ["Vous devriez consulter un pneumologue"],
+         "context_set": ""
+        },
+        {"tag": "eye",
+         "patterns": ["oeil", "yeux", "vois flou", "vision trouble", "douleur oeil", "douleur yeux", "j'ai mal à l'oeil", "j'ai mal aux yeux", "mes yeux sont rouges", "je vois flou", "j'ai du mal à ouvrir l'oeil", "je vois plus très bien de loin", "je ne vois plus de près", "ma vision a diminuer", "je vois déformer", "je vois un point noir", "je ne vois plus de loin", "ma vision est trouble", "ma vision es deformer"],
+         "responses": ["Vous devriez consulter un ophtalmologue"],
+         "context_set": ""
+        },
+        {"tag": "bone",
+         "patterns": ["j'ai mal à la main", "j'ai mal aux articulations", "j'ai mal aux muscles", "j'ai mal aux tendons", "j'ai mal aux ligaments", "j'ai des maux de dos", "j'ai de l'arthrose", "tendinite", "j'ai des tendinites", "j'ai mal a l'epaule", "j'ai des douleurs musculaire", "mon dos me fait mal", "j'ai mal au dos", "j'ai du mal a me pencher en avant", "je n'arrive plus à me baisser"],
+         "responses": ["Vous devriez consulter un rhumatologue"],
+         "context_set": ""
+        },
+        {"tag": "kid",
+        "patterns": ["enfant", "mon enfant à de la fievre", "mon enfant a des convultions", "mon enfant fait des crises d'asthme", "mon enfant a la diarrhée", "mon enfant a des vomissements", "mon enfant s'est blesser", "mon enfant s'est brulé", "mon enfant ne vas pas bien", "mon enfant est malade", "mon enfant se sent pas bien", "mon enfant à du mal à respirer", "mon enfant vomis"],
+        "responses": ["Vous devriez consulter un pédiatre"],
+        "context_set": ""
+        },
+        {"tag": "urine",
+        "patterns": ["infection urinaire", "fuite urinaire", "sang dans l'urine", "douleur aux testicules", "trouble de l'érection", "j'ai des fuites urinaires", "il y a du sang dans mon urine", "j'ai des douleurs aux testicules", "j'ai des trouble de l'érection", "j'ai des douleurs quand j'urine", "j'ai mal aux testicules", "j'ai du sang dans mon urine", "j'ai du mal à uriner"],
+        "responses": ["Vous devriez consulter un urologue"],
+        "context_set": ""
+        },
+        {"tag": "brain",
+        "patterns": ["sommeil", "epilepsie", "perte de connaissance", "j'ai des troubles du sommeil", "je n'arrive plus à dormir", "j'ai des migraines", "je fais des crises d'epilepsie", "je fais des convulsions", "mon visage est paralyser", "je fais des pertes de connaissance", "j'ai des convulsions", "je convulse souvent", "j'ai du mal a dormir", "j'ai du mal à dormir", "j'ai une partie du visage paralyser"],
+        "responses": ["Vous devriez consulter un neurologue"],
+        "context_set": ""
+        },
+        {"tag": "muscle",
+        "patterns": ["entorse", "fracture", "luxation", "scoliose", "je me suis fait une entorse", "je crois avoir une fracture", "je me suis luxé l'épaule", "je me suis fait une luxation", "je me suis déboité l'epaule", "je me suis déboité la cheville", "je me suis déboité le genou", "je crois avoir une scoliose", "mon épaule est pas a sa place", "ma cheville n'est pas à sa place", "mon genou n'est pas à sa place"],
+        "responses": ["Vous devriez consulter un orthopédiste"],
+        "context_set": ""
+        }
+   ]
+}
