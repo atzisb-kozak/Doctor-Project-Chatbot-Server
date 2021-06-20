@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/alex/Depot-Git/Doctor-Project-Chatbot-Server/model.tflearn"
+all_model_checkpoint_paths: "/home/alex/Depot-Git/Doctor-Project-Chatbot-Server/model.tflearn"

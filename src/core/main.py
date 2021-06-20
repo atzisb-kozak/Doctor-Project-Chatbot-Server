@@ -61,7 +61,7 @@ except:
     training = numpy.array(training)
     output = numpy.array(output)
 
-    with open("data.pickle", "wb") as f:
+    with open("./src/core/data.pickle", "wb") as f:
         pickle.dump((words, labels, training, output), f)
 
 net = tflearn.input_data(shape=[None, len(training[0])])
@@ -108,7 +108,7 @@ def chat():
         
         print(responses)
 
-def chat2(message):
+def get_response_bot(message):
 	res = model.predict([bag_of_words(message, words)])
 	res_index = numpy.argmax(res)
 	tag = labels[res_index]
